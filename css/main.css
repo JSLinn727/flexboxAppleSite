@@ -5,10 +5,11 @@ html {
 body ul {
   margin: 0;
   padding: 0;
-
 }
 
-h1, h2, .header-intro {
+h1,
+h2,
+.header-intro {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -23,8 +24,15 @@ h1, h2, .header-intro {
   color: white;
 }
 
-.nav-ul>li {
+.nav-ul > li {
   padding: 1em;
+
+  color: white;
+}
+
+.nav-ul a {
+  color: white;
+  text-decoration: none;
 }
 
 .header-content {
@@ -36,17 +44,15 @@ h1, h2, .header-intro {
   background-size: cover;
   min-height: 100vh;
   padding: 8em;
-  text-transform:
+  text-transform: ;
 }
 
 .header-links {
   list-style: none;
   display: flex;
   flex-direction: row;
-
 }
 
 .header-link {
   padding: 16px;
-
 }
