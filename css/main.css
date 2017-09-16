@@ -1,16 +1,17 @@
 html {
   font-family: sans-serif;
+  margin: 0;
 }
 
 body ul {
   margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 h1,
 h2,
 .header-intro {
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -40,11 +41,10 @@ h2,
   flex-direction: column;
   align-items: center;
   flex-direction: column;
-  background-image: url(../img/iphone-background.jpg);
+  background-image: url(../img/iphonex.jpeg);
   background-size: cover;
   min-height: 100vh;
-  padding: 8em;
-  text-transform: ;
+  padding: 5em;
 }
 
 .header-links {
